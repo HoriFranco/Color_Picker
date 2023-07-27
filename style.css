@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+h2{
+    color: white;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+.salida{
+    text-transform: uppercase;
+    color: white;
+    width: 30%;
+    height: 100px;
+    margin: 10px auto;
+    border: 1px solid #fdfdfd;
+    
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, #10846B 0%, #0C245F 53%, #578868 99%);
+    box-shadow: -33px 5px 10px 1px #000;
+
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0.2;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+
